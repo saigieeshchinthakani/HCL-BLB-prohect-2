@@ -3,14 +3,14 @@ pipeline {
     
     tools
     {
-       maven "Maven"
+       maven "mvn"
     }
      
     stages {
       stage('checkout') {
            steps {
              
-                git branch: 'master', url: 'https://github.com/Nishad47/Tomcat-deployerRepo.git'
+                git branch: 'master', url: 'https://github.com/devshree5/HCL-BloodV2-project.git'
              
           }
         }
