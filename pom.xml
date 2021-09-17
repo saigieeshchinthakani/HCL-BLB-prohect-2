@@ -1,9 +1,24 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+<<<<<<< HEAD
   <groupId>BloodV2</groupId>
   <artifactId>BloodV2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+=======
+  <groupId>HCL-BLB-prohect-2</groupId>
+  <artifactId>HCL-BLB-prohect-2</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <dependencies>
+  <dependency>
+  <groupId>javax.servlet</groupId>
+  <artifactId>javax.servlet-api</artifactId>
+  <version>3.1.0</version>
+  <scope>provided</scope>
+  </dependency>
+  </dependencies>
+>>>>>>> 53a7cd8a115fc212a8e82cdeea3c98dab13dd79d
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -22,7 +37,11 @@
           <warSourceDirectory>WebContent</warSourceDirectory>
         </configuration>
       </plugin>
+<<<<<<< HEAD
   <plugin>
+=======
+      <plugin>
+>>>>>>> 53a7cd8a115fc212a8e82cdeea3c98dab13dd79d
     <groupId>org.apache.tomcat.maven</groupId>
     <artifactId>tomcat7-maven-plugin</artifactId>
     <version>2.2</version>
@@ -34,6 +53,7 @@
     </plugin>
     </plugins>
   </build>
+<<<<<<< HEAD
   <dependencies>
   <dependency>
     <groupId>javax.servlet</groupId>
@@ -43,3 +63,6 @@
   </dependency>
   </dependencies>
 </project>
+=======
+</project>
+>>>>>>> 53a7cd8a115fc212a8e82cdeea3c98dab13dd79d
